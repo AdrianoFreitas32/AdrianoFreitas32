@@ -1,11 +1,11 @@
 #include <stdio.h>
  
 int main() {
-    int idade = 25;
-    float altura = 1.75;
+    int idade = 32;
+    float altura = 1.70;
     double saldoBancario = 12345.67;
     char inicial = 'A';
-    char nome[20] = "Bruno";
+    char nome[20] = "Adriano";
  
     printf("Idade: %d anos\n", idade);
     printf("Altura: %.2f metros\n", altura);
@@ -14,3 +14,4 @@ int main() {
     printf("Nome: %s\n", nome);
  
     return 0;
+}
