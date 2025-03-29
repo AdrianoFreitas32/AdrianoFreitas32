@@ -2,8 +2,8 @@
 
 int main() {
 
-    char estado1[50], estado2[50];
-    char codigo1[50],codigo2[50], cidade1[50], cidade2[50];
+    char estado1[20], estado2[20];
+    char codigo1[20],codigo2[20], cidade1[20], cidade2[20];
     int populaçao1, populaçao2, carta1, carta2;
     float Area1, Area2;
     float PIB1, PIB2;
@@ -81,7 +81,7 @@ int main() {
     printf("PIB: %f\n", PIB1);
     printf("Numero de pontos turisticos: %d\n", Pontosturisticos1);
     printf("PIB per capita: %f\n", PIBpercapita1);
-    printf("Dencudade populacional: %f\n", Dencidadepopulacional1);
+    printf("Densidade populacional: %f\n", Dencidadepopulacional1);
 
 
 
@@ -94,7 +94,7 @@ int main() {
     printf("PIB: %f\n", PIB2);
     printf("Numero de pontos turisticos: %d\n", Pontosturisticos2);
     printf("PIB per capita: %f\n", PIBpercapita2);
-    printf("Dencudade populacional: %f\n", Dencidadepopulacional2);
+    printf("Densidade populacional: %f\n", Dencidadepopulacional2);
 
     return 0;
 }
