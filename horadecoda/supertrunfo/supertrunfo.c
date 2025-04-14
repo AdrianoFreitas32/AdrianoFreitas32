@@ -9,8 +9,8 @@ int main() {
     int Area1, Area2;
     int PIB1, PIB2;
     int Pontosturisticos1, Pontosturisticos2;
-    int Dencidadepopulacional1, Dencidadepopulacional2;
-    int PIBpercapita1, PIBpercapita2;
+    float Dencidadepopulacional1, Dencidadepopulacional2;
+    float PIBpercapita1, PIBpercapita2;
 
     
 
@@ -35,15 +35,15 @@ int main() {
 
     printf("Digite a populaçao: \n");
     scanf("%d", &populacao1);
-    printf("populaçao da cidade: %d\n", populacao1);
+    printf("populaçao da cidade: %d mil\n", populacao1);
 
     printf("Digite a area da cidade: \n");
     scanf("%d", &Area1);
-    printf("Area da cidade: %d\n", Area1);
+    printf("Area da cidade: %d Km²\n", Area1);
 
     printf("Digite o PiB: \n");
     scanf("%d", &PIB1);
-    printf("PIB: %d\n", PIB1);
+    printf("PIB: %d milhoes\n", PIB1);
 
     printf("Digite o numero de pontos turisticos: \n");
     scanf("%d", &Pontosturisticos1);
@@ -54,9 +54,9 @@ int main() {
     Dencidadepopulacional1 = populacao1 / Area1;
     
 
-    printf("PIB per capita: %d\n", PIBpercapita1);
+    printf("PIB per capita: %.2f\n", PIBpercapita1);
     
-    printf("Densidade populacional: %d\n", Dencidadepopulacional1);
+    printf("Densidade populacional: %.2f\n", Dencidadepopulacional1);
 
 
 
@@ -80,15 +80,15 @@ int main() {
 
     printf("Digite a populaçao: \n");
     scanf("%d", &populacao2);
-    printf("populaçao da cidade: %d\n", populacao2);
+    printf("populaçao da cidade: %d mil\n", populacao2);
 
     printf("Digite a area da cidade: \n");
     scanf("%d", &Area2);
-    printf("Area da cidade: %f\n", Area2);
+    printf("Area da cidade: %d Km²\n", Area2);
 
     printf("Digite o PiB: \n");
     scanf("%d", &PIB2);
-    printf("PIB: %f\n", PIB2);
+    printf("PIB: %d milhoes\n", PIB2);
 
     printf("Digite o numero de pontos turisticos: \n");
     scanf("%d", &Pontosturisticos2);
@@ -97,8 +97,8 @@ int main() {
     PIBpercapita2 = PIB2 / populacao2;
     Dencidadepopulacional2 = populacao2 / Area2;
 
-    printf("PIB per capita: %d\n", PIBpercapita2);
-    printf("Densidade populacional: %d\n", Dencidadepopulacional2);
+    printf("PIB per capita: %.2f\n", PIBpercapita2);
+    printf("Densidade populacional: %.2f\n", Dencidadepopulacional2);
 
    
     
