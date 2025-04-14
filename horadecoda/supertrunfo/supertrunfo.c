@@ -4,7 +4,7 @@
 int main() {
 
     char estado1[20], estado2[20];
-    char codigo1[20],codigo2[20], cidade1[20], cidade2[20];
+    char codigo1[20], codigo2[20], cidade1[20], cidade2[20];
     int populacao1, populacao2, carta1, carta2;
     float Area1, Area2;
     float PIB1, PIB2;
