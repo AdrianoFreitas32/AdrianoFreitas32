@@ -11,6 +11,22 @@ int main() {
     int Pontosturisticos1, Pontosturisticos2;
     float Dencidadepopulacional1, Dencidadepopulacional2;
     float PIBpercapita1, PIBpercapita2;
+    float superpoder1, superpoder2;
+    float resultadopopulacao, resultadoarea, resultadoPBI, resultadopontosturistico,
+    resultadopbipercapto, resultadodencidadepopulacional, resultadosuperpoder;
+
+    resultadoarea = Area1 > Area2;
+    resultadoPBI = PIB1 > PIB2;
+    resultadopopulacao = populacao1 > populacao2;
+    resultadopontosturistico = Pontosturisticos1 > Pontosturisticos2;
+    resultadopbipercapto = PIBpercapita1 > PIBpercapita2;
+    resultadodencidadepopulacional = Dencidadepopulacional1 > Dencidadepopulacional2;
+    resultadosuperpoder = superpoder1 > superpoder2;
+
+
+
+    superpoder1 = populacao1 + Area1 + PIB1 + Pontosturisticos1;
+    superpoder2 = populacao2 + Area2 + PIB2 + Pontosturisticos2;
 
     
 
@@ -58,6 +74,8 @@ int main() {
     
     printf("Densidade populacional: %.2f\n", Dencidadepopulacional1);
 
+    printf("Super poder: %.2f\n", superpoder1);
+
 
 
     
@@ -98,10 +116,21 @@ int main() {
     Dencidadepopulacional2 = populacao2 / Area2;
 
     printf("PIB per capita: %.2f\n", PIBpercapita2);
+
     printf("Densidade populacional: %.2f\n", Dencidadepopulacional2);
 
-   
-    
+
+printf("Super poder: %.2f\n", superpoder2);
+
+printf("Resultado Populacao: %f\n", resultadopopulacao);
+printf("Resultado Area: %f\n", resultadoarea);
+printf("Resultado PIB: %f\n", resultadoPBI);
+printf("Resultado Pontos Turisticos: %f\n", resultadopontosturistico);
+printf("Resultado Dencidade Populacional: %f\n", resultadodencidadepopulacional);
+printf("Resultado PIB percapito: %f\n", resultadopbipercapto);
+printf("Resultado Super Poder: %f\n", resultadosuperpoder);
+
+
 
    
     return 0;
